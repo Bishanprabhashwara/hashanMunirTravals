@@ -2,5 +2,6 @@
     position: relative;
     top: 720px;
     z-index: 6;
-
+    width: 95%;
+    margin: 2%;
 }
