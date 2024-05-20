@@ -1,0 +1,33 @@
+.contactRadio{
+    text-align: left;
+    font-size: 125%;
+    margin-left: 10%;
+}
+
+input.contacttime{
+    width: 20%;
+    
+}
+div.contacttime{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.contacttextarea{
+    width: 10%;
+}
+.contactother{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.contactsubmit{
+    margin-top: 5%;
+    
+}
+.contactbutton{
+    width: 10%;
+    height: 50px;
+}
