@@ -1,0 +1,20 @@
+.about-img-2{
+    margin-top: 1.5rem;
+}
+
+.about-img-1:hover{
+    transform: scale(1.1);
+}
+.about-img-2:hover{
+    transform: scale(1.1);
+}
+.about-img-3:hover{
+    transform: scale(1.1);
+}
+.about-img-4:hover{
+    transform: scale(1.1);
+}
+
+.about-icon{
+    color: yellow;
+}
