@@ -15,7 +15,7 @@ function Services() {
         <div>
           <img src={YasakaShrine} className='YasakaShrineimg'/>
           <div className='YasakaShrineinfo'>
-          <h1><a href='#' className='earlybirda'>Early Bird Tour </a></h1>
+          <h1><a href='/earlybirdtour' className='earlybirda'>Early Bird Tour </a></h1>
           <br/>
             <ul>
               <li>Visit two of the most famous places in Japan, the Fushimi Inari Shrine and the Kiyomizu Temple</li>
@@ -73,7 +73,9 @@ function Services() {
         </div>
 
       </div>
+      
       <div className='contactservice'>
+      
        <Contact />
       </div>
       

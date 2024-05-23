@@ -56,12 +56,16 @@ p.FushimiInariShrine{
     
 }
 
-.FushimiInariShrineul ul {
+.FushimiInariShrineul ul,
+.Kiyomizuul ul
+.Higashiyamaul ul {
     
     padding: 0;
 }
 
-.FushimiInariShrineul li {
+.FushimiInariShrineul li,
+.Kiyomizuul li,
+.Higashiyamaul li {
     opacity: 0;
     transform: translateX(100%);
     animation: slide-in 0.5s forwards;
@@ -73,7 +77,6 @@ p.FushimiInariShrine{
         transform: translateX(0);
     }
 }
-
 div.Kiyomizu{
     position: absolute;
     top: 250%;
@@ -84,4 +87,58 @@ img.Kiyomizu{
     width: 25%;
     height: 500px;
     margin-left: 5%;
+}
+.Kiyomizuul{
+    position: absolute;
+    top:20%;
+    left: 35%;
+    text-align: left;
+    font-size: 150%;
+    margin-top: 5%;
+    color: gray;
+    width: 50%;
+}
+
+img.Higashiyama{
+    width: 25%;
+    height: 500px;
+    margin-left: 5%;
+    position: absolute;
+    left: 0;
+}
+
+div.Higashiyama{
+    position: absolute;
+    top: 350%;  
+    width: 100%;
+    
+}
+div.Higashiyamaul{
+    position:absolute;
+    left: 35%;
+    text-align: left;
+    font-size: 150%;
+    margin-top: 5%;
+    color: gray;
+    width: 50%;
+
+}
+div.earlyBirdadd {
+    border-bottom:solid gray ;
+}
+.earlyBirdbuttonbottom{
+    
+    margin-bottom: 5%;
+    left: 40%;
+    width: 20%;
+    height: 50px;
+    margin-top: 3%;
+}
+
+div.earlyBirdbottom{
+    position: absolute;
+    top: 440%;
+    left: 5%;
+    border-top:solid gray ;
+    width: 90%;
 }

@@ -30,4 +30,11 @@ div.contacttime{
 .contactbutton{
     width: 10%;
     height: 50px;
+    margin-bottom: 5%;
+}
+
+.contact-fieldset{
+    border: solid gray;
+    width:90% ;
+    margin: 5%;
 }
