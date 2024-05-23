@@ -9,7 +9,11 @@ function Services() {
     <>
     
     <div className='services'>
-    <h1>Plans</h1>
+      <br/>
+      <div className='services-quote'>
+        <p className='services-quote'><br/>Join us on our quest to turn every moment into an unforgettable adventure. Our tours blend fun, insight, and discovery to reveal the heart and soul of Japan's beauty</p>
+        <p className='services-quote'>Let's craft an experience that's as enchanting as Japan itself. With our carefully curated tours, every moment will be a masterpiece of beauty and discovery</p>
+    </div>
       <div>
       
         <div>

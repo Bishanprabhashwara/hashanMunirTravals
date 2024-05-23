@@ -67,3 +67,14 @@ button.YasakaShrinebutton{
     width: 100%;
 
 }
+p.services-quote{
+    margin-top: 2%;
+    font-size: 150%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div.services-quote{
+    border: solid gray;
+    margin: 2%;
+}
