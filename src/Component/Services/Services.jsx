@@ -4,6 +4,9 @@ import YasakaShrine from '../../assets/images/YasakaShrine.JPG';
 import image2 from '../../assets/images/IMG_4631.JPG';
 import Contact from '../Contact/Contact';
 import BookNow from '../../Pages/BookNow/BookNow';
+import Gallery from '../gallery/gallery';
+import Process from '../process/process';
+import Packages from '../packages/packages';
 
 function Services() {
   const [modalData, setModalData] = useState({
@@ -29,8 +32,8 @@ function Services() {
     <>
       <div className='services'>
         <br/>
-        <div className='services-quote'>
-          <p className='services-quote'>
+        {/* <div className='services-quote'>
+          {/* <p className='services-quote'>
             <br/>
             Join us on our quest to turn every moment into an unforgettable adventure. Our tours blend fun, insight, and discovery to reveal the heart and soul of Japan's beauty.
           </p>
@@ -92,9 +95,13 @@ function Services() {
 
         <div className='contactservice'>
           <Contact />
-        </div>
+        </div> */} 
 
         {modalData.isVisible && <BookNow onClose={closeModal} plane={modalData.plane} />}
+        <Gallery/>
+        <Process/>
+        <Packages/>
+        <Contact/>
       </div>
     </>
   );

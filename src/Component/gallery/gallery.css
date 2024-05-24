@@ -1,0 +1,14 @@
+.img-height-div{
+    min-height: 350px;
+}
+.img-height{
+    object-fit: cover;
+}
+.img-div:hover{
+    transform: scale(1.04);
+}
+.hero-toriigates{
+    position: relative;
+    left: 0;
+    
+}

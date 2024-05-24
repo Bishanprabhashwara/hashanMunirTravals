@@ -1,7 +1,7 @@
 
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Home from './Pages/Home/Home';
 import EarlyBirdTour from './Pages/EarlyBirdTour/EarlyBirdTour';
 import BookNow from './Pages/BookNow/BookNow';
