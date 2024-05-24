@@ -52,7 +52,7 @@ button.YasakaShrinebutton{
     height: 35%;
     position:relative;
     top: 10%;
-    left: -30%;
+    left: -35%;
 }
 
 .NightWalk{
@@ -77,4 +77,18 @@ p.services-quote{
 div.services-quote{
     border: solid gray;
     margin: 2%;
+}
+div.vip{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 5%;
+    border-top:  solid gray;
+}
+
+.NightWalk{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 5%;
+    border-top:  solid gray;
+    
 }

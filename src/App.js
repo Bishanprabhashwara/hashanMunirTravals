@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Video from './Component/HeroVideo/Video';
-import Hero from './Component/Hero/Hero';
+
 import Home from './Pages/Home/Home';
 import EarlyBirdTour from './Pages/EarlyBirdTour/EarlyBirdTour';
+import BookNow from './Pages/BookNow/BookNow';
 
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
       <Router>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/earlybirdtour" element={<EarlyBirdTour />} />          
+            <Route path="/earlybirdtour" element={<EarlyBirdTour />} />     
+            <Route path="/booknow" element={<BookNow/>} />       
           </Routes>
         </Router>
     </div>

@@ -8,7 +8,7 @@ function Contact() {
         
         <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
         <fieldset className="contact-fieldset">
-        <div><h1>Contact Us</h1></div>
+        <div><h1>Ready to explore Japan? Contact us and let's start your adventure!</h1></div>
             <div className='contactRadio'>
             <p>Describe your party </p>
                 <input type='radio'  name='party' value='Solo Traveler' className='form-check-input'/> Solo Traveler <br/>
