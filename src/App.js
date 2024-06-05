@@ -16,11 +16,11 @@ function App() {
       <Router>
           <Routes>
             <Route path="/hashanMunirTravals/" element={<Home/>} />
-            <Route path="/earlybirdtour" element={<EarlyBirdTour />} />     
-            <Route path="/booknow" element={<BookNow/>} />  
-            <Route path="/gihon" element={<Gihon/>} />    
-            <Route path="/arashiyama" element={<Arashiyama/>} /> 
-            <Route path="/nara" element={<Nara/>} />      
+            <Route path="/hashanMunirTravals/earlybirdtour" element={<EarlyBirdTour />} />     
+            <Route path="/hashanMunirTravals/booknow" element={<BookNow/>} />  
+            <Route path="/hashanMunirTravals/gihon" element={<Gihon/>} />    
+            <Route path="/hashanMunirTravals/arashiyama" element={<Arashiyama/>} /> 
+            <Route path="/hashanMunirTravals/nara" element={<Nara/>} />      
           </Routes>
         </Router>
     </div>

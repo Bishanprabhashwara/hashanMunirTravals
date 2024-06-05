@@ -53,7 +53,7 @@ function Packages() {
                             </div>
                             <p>Visit two of the most famous places in Japan, the Fushimi Inari Shrine and the Kiyomizu Temple, Beat the crowds with a 6 o'clock start</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="/gihon" class="btn-sm px-3 border-end btn-packages">Read More</a>
+                                <a href="/hashanMunirTravals/gihon" class="btn-sm px-3 border-end btn-packages">Read More</a>
                                 <a className="btn-sm px-3 btn-packages" onClick={() => openModal('Early Bird Tour')}>Book Now</a>
 
                                 {/* <a href="#" class="btn btn-sm btn-primary px-3 border-end btn-packages">Read More</a>
@@ -83,7 +83,7 @@ function Packages() {
                             </div>
                             <p>Design a custom travel plan based on your travel style preferences. Tailor your itinerary to match your interests and maximize your experience.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="/nara" class="btn-sm px-3 border-end btn-packages">Read More</a>
+                                <a href="/hashanMunirTravals/nara" class="btn-sm px-3 border-end btn-packages">Read More</a>
                                 <a className="btn-sm px-3 btn-packages" onClick={() => openModal('VIP')}>Book Now</a>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ function Packages() {
                             </div>
                             <p>Design a custom travel plan based on your travel style preferences. Tailor your itinerary to match your interests and maximize your experience.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="/arashiyama" class="btn-sm px-3 border-end btn-packages">Read More</a>
+                                <a href="/hashanMunirTravals/arashiyama" class="btn-sm px-3 border-end btn-packages">Read More</a>
                                 <a className='btn-sm px-3 btn-packages' onClick={() => openModal('Gihon')}>Book Now</a>
                             </div>
                             {modalData.isVisible && <BookNow onClose={closeModal} plane={modalData.plane} />}
