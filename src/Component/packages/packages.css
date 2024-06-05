@@ -1,0 +1,58 @@
+.package-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.package-item img {
+    transition: .5s;
+}
+
+.package-item:hover img {
+    transform: scale(1.1);
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-packages{
+    border-radius: 0 30px 30px 0;
+}
+.icon-package{
+    color: var(--main-bg2);
+}
+.btn-packages{
+    text-decoration: none;
+    background: var(--main-bg2);
+    color: var(--light);
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 5px;
+    padding: 2px;
+}
+.btn-packages:hover{
+    box-shadow: 0 0 0.3rem var(--main-bg2);
+    transform: scale(0.95);
+}
+
+.card-package{
+    /* border: 0.1mm solid var(--main-bg2); */
+    box-shadow: 0 0 0.5rem;
+    border-radius: 10px;
+}
+.card-package:hover{
+    /* border: 0.1mm solid var(--main-bg2); */
+    box-shadow: 0 0 0.3rem var(--main-bg2);
+    border-radius: 10px;
+}
+.img-fluid-package{
+    border-radius: 10px 10px 0 0;
+}
+.img-fluid-package:hover{
+    border-radius: 10px 10px 0 0;
+}
+.img-package-div{
+    border-radius: 10px 10px 0 0;
+}
+.img-package-div:hover{
+    border-radius: 10px 10px 0 0;
+}

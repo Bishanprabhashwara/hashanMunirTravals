@@ -1,0 +1,24 @@
+.icon-div{
+    width: 100px;
+    height: 100px;
+}
+.bg-icon-process{
+    background: var(--main-bg2);
+}
+.border-process{
+    /* border: 2px solid var(--main-bg2); */
+    border-radius: 7px;
+    box-shadow: 0 0 0.5rem;
+}
+.bg-hr{
+    color: var(--main-bg2);
+    border: 0.1mm solid var(--main-bg2);
+}
+
+.border-process:hover{
+    box-shadow: 0 0 0.3rem var(--main-bg2);
+    transform: scale(1.02);
+}
+.icon-process:hover{
+    transform: scale(1.1);
+}

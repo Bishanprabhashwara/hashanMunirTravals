@@ -1,0 +1,28 @@
+.image{
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+.card-discription{
+    background-color: aqua;
+    width: 30%;
+
+    float: right;
+}
+.description{
+    background-color: blue;
+}
+.card-container{
+    padding: 5%;
+    color: gray;
+    font-size: 150%;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+@media (max-width: 600px) {
+    .card-container{
+        font-size: 100%;
+    }
+    
+}

@@ -1,0 +1,48 @@
+.KenninjiTemple{
+    position: absolute;
+    top: 450%;
+}
+.KenninjiTemplimg{
+    position: absolute;
+    left: 0%;
+    width: 25%;
+    height: 500px;
+    top: 100%;
+}
+
+.KenninjiTempleinfo{
+    /* margin-left: 5%; */
+}
+.gihonbottom{
+    position: absolute;
+    top: 550%;
+    left: 5%;
+    border-top:solid gray ;
+    width: 90%
+}
+
+.gihonTourp{
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    z-index: 2;
+    color: white;
+    text-decoration:wavy;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+/* Define base font size */
+
+@media (max-width: 600px) {
+    .gihonTourp{
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        left: 0;
+        font-size: 200%;
+        background-color: 	rgba(211, 211, 211, 0.6);
+        text-align: center;
+        
+    }
+}

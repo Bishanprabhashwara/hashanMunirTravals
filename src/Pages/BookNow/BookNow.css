@@ -1,0 +1,16 @@
+.BK-closeButton{
+    position: fixed;
+    top: 0%;
+    right: 3%;
+    border: none;
+    font-size: 100%;
+}
+
+.booknow-header{
+    background-image: url('../../assets/images/booknowimg.jpg');
+    text-align: center;
+    margin-top:4% ;
+}
+.booknowback{
+    /* width: 200%; */
+}

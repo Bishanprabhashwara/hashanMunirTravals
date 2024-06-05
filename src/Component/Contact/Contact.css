@@ -1,0 +1,106 @@
+.contactRadio{
+    font-size: 90%;
+}
+.radio-btn{
+    gap: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.form-check-input{
+    margin-left: 10px;
+    gap: 2px;
+}
+.name{
+    gap: 10px;
+}
+
+input.contacttime{
+    width: 20%;
+    
+}
+div.contacttime{
+    text-align: left;
+    /* margin-left: 10%; */
+    margin-top: 5%;
+}
+.contacttextarea{
+    width: 100%;
+}
+.contactother{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+
+
+.contact-fieldset{
+    /* border: solid gray; */
+    /* width:90% ; */
+    margin-left: 5%;
+}
+.custom-width {
+    width: 50%; /* Adjust the percentage as needed */
+}
+.btn-contact{
+    /* border-radius: 5px 30px; */
+    border-radius: 30px !important;
+    color: var(--light);
+}
+
+.contactsubmit{
+    margin-top: 5%;
+}
+.contactbutton{
+    border-radius: 30px !important;
+    color: var(--light);
+    border: none;
+}
+
+.contact-fieldset input{
+    border: 1px solid;
+}
+.contact-fieldset textarea{
+    border: 1px solid;
+}
+
+ 
+.map {
+    /* background-color: rgba(214, 213, 213, 0.3); */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 0.5rem; */
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px 20px;
+}
+/*
+.contact-form {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem;
+}
+
+.map:hover{
+    box-shadow: 0 0 0.1rem var(--main-bg2);
+    transform: scale(1.02);
+}
+.contact-form:hover{
+    box-shadow: 0 0 0.1rem var(--main-bg2);
+    transform: scale(1.02);
+}
+*/
+.contact-div{
+    /* margin-bottom: 30px; */
+    /* background-color: rgba(214, 213, 213, 0.3); */
+    width: 100%;
+    padding: 30px 10px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5rem;
+}
+.contact-div:hover{
+    box-shadow: 0 0 0.3rem var(--main-bg2);
+    transform: scale(1.02);
+}
