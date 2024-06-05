@@ -18,7 +18,7 @@ function App() {
             <Route path="/hashanMunirTravals/" element={<Home/>} />
             <Route path="/hashanMunirTravals/earlybirdtour" element={<EarlyBirdTour />} />     
             <Route path="/hashanMunirTravals/booknow" element={<BookNow/>} />  
-            <Route path="/hashanMunirTravals/gihon" element={<Gihon/>} />    
+            <Route path="/gihon" element={<Gihon/>} />    
             <Route path="/hashanMunirTravals/arashiyama" element={<Arashiyama/>} /> 
             <Route path="/hashanMunirTravals/nara" element={<Nara/>} />      
           </Routes>
