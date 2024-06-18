@@ -123,8 +123,9 @@ const BookNow = ({ onClose,plane }) => {
   };
 
   const modalStyle = {
+    zIndex:10,
     position: 'fixed',
-    top: '50%',
+    top: '55%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
     backgroundColor: 'white',
@@ -132,6 +133,7 @@ const BookNow = ({ onClose,plane }) => {
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
     zIndex: 1000,
     maxWidth: '100%', // Adjust maximum width according to your preference
+    height:'90%',
     width: 'auto', // Set width to auto for responsiveness
     maxHeight: '100%', // Adjust maximum height according to your preference
     overflowY: 'auto',

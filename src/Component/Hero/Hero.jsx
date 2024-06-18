@@ -21,9 +21,14 @@ function Hero() {
       <Navbar/>
     </div>
     <div className='herointro'>
-      <div className='intro'>
-        <img src={heroimg} className='introImg'/>
-        <p className='heroH1'>Discover Japan Where tradition meets innovation</p>
+      <div className='intro row'>
+        <div className='col-lg-6 col-md-12 col-sm-12' >
+          <img src={heroimg} className='introImg'/>
+        </div>
+        <div className='col-lg-6 col-md-12 col-sm-12'>
+          <h1 className='heroH1'>Kyoto Tour Itinerary</h1>
+        </div>
+        
       </div>
     </div>
     </>

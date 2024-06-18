@@ -4,6 +4,9 @@ import BookNow from '../../Pages/BookNow/BookNow';
 import Kyoto from '../../assets/images/KiyomizuKyoto.jpg'
 import Higashiyama from '../../assets/images/Higashiyama.jpg'
 import Sorasak from '../../assets/images/sorasak-_UIN-pFfJ7c-unsplash.jpg'
+import Vip from '../../Pages/VIP/VIP';
+import EarlyBirdTour from '../../Pages/EarlyBirdTour/EarlyBirdTour';
+import Ordinary from '../../Pages/Ordinary/Ordinary';
 
 function Packages() {
     const [modalData, setModalData] = useState({
@@ -24,6 +27,63 @@ function Packages() {
           plane: ''
         });
       };
+
+      const [modalData2, setModalData2] = useState({
+        isVisible: false,
+        plane: ''
+      });
+    
+      const openModal2 = (plane) => {
+        setModalData2({
+          isVisible: true,
+          plane
+        });
+      };
+    
+      const closeModal2 = () => {
+        setModalData2({
+          isVisible: false,
+          plane: ''
+        });
+      };
+
+      const [modalData3, setModalData3] = useState({
+        isVisible: false,
+        plane: ''
+      });
+    
+      const openModal3 = (plane) => {
+        setModalData2({
+          isVisible: true,
+          plane
+        });
+      };
+    
+      const closeModal3 = () => {
+        setModalData3({
+          isVisible: false,
+          plane: ''
+        });
+      };
+
+      const [modalData4, setModalData4] = useState({
+        isVisible: false,
+        plane: ''
+      });
+    
+      const openModal4 = (plane) => {
+        setModalData4({
+          isVisible: true,
+          plane
+        });
+      };
+    
+      const closeModal4 = () => {
+        setModalData4({
+          isVisible: false,
+          plane: ''
+        });
+      };
   return (
     <div class="container-xxl py-5">
         <div class="container">
@@ -38,7 +98,7 @@ function Packages() {
                             <img class="img-fluid img-fluid-package" src={ Kyoto } alt="" />
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt me-2 icon-package"></i>Gion</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt me-2 icon-package"></i>Early Bird Tour</small>
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt me-2 icon-package"></i>Early Birds Tours</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user me-2 icon-package"></i>Sample</small>
                         </div>
@@ -53,7 +113,7 @@ function Packages() {
                             </div>
                             <p>Visit two of the most famous places in Japan, the Fushimi Inari Shrine and the Kiyomizu Temple, Beat the crowds with a 6 o'clock start</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="/hashanMunirTravals/gihon" class="btn-sm px-3 border-end btn-packages">Read More</a>
+                                <a  class="btn-sm px-3 btn-packages" onClick={() => openModal3('Early Bird Tour')}>Read More</a>
                                 <a className="btn-sm px-3 btn-packages" onClick={() => openModal('Early Bird Tour')}>Book Now</a>
 
                                 {/* <a href="#" class="btn btn-sm btn-primary px-3 border-end btn-packages">Read More</a>
@@ -68,7 +128,7 @@ function Packages() {
                             <img class="img-fluid img-fluid-package" src={ Higashiyama } alt="" />
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt icon-package me-2"></i>Nara</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt icon-package me-2"></i>VIP</small>
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt icon-package me-2"></i>VIP</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user icon-package me-2"></i>Sample</small>
                         </div>
@@ -83,7 +143,7 @@ function Packages() {
                             </div>
                             <p>Design a custom travel plan based on your travel style preferences. Tailor your itinerary to match your interests and maximize your experience.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="/hashanMunirTravals/nara" class="btn-sm px-3 border-end btn-packages">Read More</a>
+                                <a  class="btn-sm px-3 btn-packages" onClick={() => openModal2('VIP')}>Read More</a>
                                 <a className="btn-sm px-3 btn-packages" onClick={() => openModal('VIP')}>Book Now</a>
                             </div>
                         </div>
@@ -95,7 +155,7 @@ function Packages() {
                             <img class="img-fluid img-fluid-package" src={ Sorasak } alt=""/>
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt icon-package me-2"></i>Arashiyama</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt icon-package me-2"></i>Ordinary</small>
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt icon-package me-2"></i>Sample</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user icon-package me-2"></i>Sample</small>
                         </div>
@@ -110,10 +170,13 @@ function Packages() {
                             </div>
                             <p>Design a custom travel plan based on your travel style preferences. Tailor your itinerary to match your interests and maximize your experience.</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="/hashanMunirTravals/arashiyama" class="btn-sm px-3 border-end btn-packages">Read More</a>
-                                <a className='btn-sm px-3 btn-packages' onClick={() => openModal('Gihon')}>Book Now</a>
+                                <a  class="btn-sm px-3 border-end btn-packages" onClick={() => openModal4('Ordinary')}>Read More</a>
+                                <a className='btn-sm px-3 btn-packages' onClick={() => openModal('Ordinary')}>Book Now</a>
                             </div>
                             {modalData.isVisible && <BookNow onClose={closeModal} plane={modalData.plane} />}
+                            {modalData2.isVisible && <Vip onClose={closeModal2} plane={modalData2.plane} />}
+                            {modalData3.isVisible && <EarlyBirdTour onClose={closeModal3} plane={modalData3.plane} />}
+                            {modalData4.isVisible && <Ordinary onClose={closeModal4} plane={modalData4.plane} />}
                         </div>
                     </div>
                 </div>

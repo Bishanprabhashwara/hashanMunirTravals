@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import './EarlyBirdTour.css';
+
 import vipimg from '../../assets/images/145.jpg';
 import BookNow from '../BookNow/BookNow';
 import { Link } from 'react-router-dom';
@@ -55,7 +55,7 @@ const useResponsiveStyle = () => {
     return isMobile ? modalFullScreenStyle : modalStyle2;
 };
 
-const EarlyBirdTour = ({ onClose }) => {
+const Ordinary = ({ onClose }) => {
     const modalStyle = useResponsiveStyle();
     const [modalData, setModalData] = useState({
         isVisible: false,
@@ -120,4 +120,4 @@ const EarlyBirdTour = ({ onClose }) => {
     );
 };
 
-export default EarlyBirdTour;
+export default Ordinary;
