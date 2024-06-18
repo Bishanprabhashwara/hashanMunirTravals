@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hashanMunirTravals/static/css/main.da224be1.css",
-    "main.js": "/hashanMunirTravals/static/js/main.f37c33b3.js",
+    "main.css": "/hashanMunirTravals/static/css/main.62ff5c7b.css",
+    "main.js": "/hashanMunirTravals/static/js/main.eb04e464.js",
     "reactPlayerYouTube.js": "/hashanMunirTravals/static/js/reactPlayerYouTube.fc3add70.chunk.js",
     "reactPlayerSoundCloud.js": "/hashanMunirTravals/static/js/reactPlayerSoundCloud.444fc721.chunk.js",
     "reactPlayerVimeo.js": "/hashanMunirTravals/static/js/reactPlayerVimeo.3c15ce87.chunk.js",
@@ -40,6 +40,7 @@
     "static/media/otagi.jpg": "/hashanMunirTravals/static/media/otagi.d48ff3e9e6d84bc710b4.jpg",
     "static/media/fa-brands-400.ttf": "/hashanMunirTravals/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/Mango.jpg": "/hashanMunirTravals/static/media/Mango.082a65d9763bafcb3763.jpg",
+    "static/media/145.jpg": "/hashanMunirTravals/static/media/145.5d443dacfc2894f8c13c.jpg",
     "static/media/fa-solid-900.woff2": "/hashanMunirTravals/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
     "static/media/banbooforest.jpg": "/hashanMunirTravals/static/media/banbooforest.6790ed10953f3ae2ca17.jpg",
     "static/media/7c.jpg": "/hashanMunirTravals/static/media/7c.43b765bb39afbd61f95c.jpg",
@@ -58,8 +59,8 @@
     "static/media/fa-v4compatibility.ttf": "/hashanMunirTravals/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/hashanMunirTravals/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/hashanMunirTravals/index.html",
-    "main.da224be1.css.map": "/hashanMunirTravals/static/css/main.da224be1.css.map",
-    "main.f37c33b3.js.map": "/hashanMunirTravals/static/js/main.f37c33b3.js.map",
+    "main.62ff5c7b.css.map": "/hashanMunirTravals/static/css/main.62ff5c7b.css.map",
+    "main.eb04e464.js.map": "/hashanMunirTravals/static/js/main.eb04e464.js.map",
     "reactPlayerYouTube.fc3add70.chunk.js.map": "/hashanMunirTravals/static/js/reactPlayerYouTube.fc3add70.chunk.js.map",
     "reactPlayerSoundCloud.444fc721.chunk.js.map": "/hashanMunirTravals/static/js/reactPlayerSoundCloud.444fc721.chunk.js.map",
     "reactPlayerVimeo.3c15ce87.chunk.js.map": "/hashanMunirTravals/static/js/reactPlayerVimeo.3c15ce87.chunk.js.map",
@@ -77,7 +78,7 @@
     "453.c88a101e.chunk.js.map": "/hashanMunirTravals/static/js/453.c88a101e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da224be1.css",
-    "static/js/main.f37c33b3.js"
+    "static/css/main.62ff5c7b.css",
+    "static/js/main.eb04e464.js"
   ]
 }
