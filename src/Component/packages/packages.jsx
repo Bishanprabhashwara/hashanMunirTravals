@@ -89,7 +89,7 @@ function Packages() {
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title text-center text-title px-3">Packages</h6>
-                <h1 class="mb-5">Awesome Packages</h1>
+                <h1 class="mb-5">Exciting Day Tours</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -103,7 +103,7 @@ function Packages() {
                             <small class="flex-fill text-center py-2"><i class="fa fa-user me-2 icon-package"></i>Sample</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$149.00</h3>
+                            <h3 class="mb-0">18000¥</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star icon-package"></small>
                                 <small class="fa fa-star icon-package"></small>
@@ -133,7 +133,7 @@ function Packages() {
                             <small class="flex-fill text-center py-2"><i class="fa fa-user icon-package me-2"></i>Sample</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$139.00</h3>
+                            <h3 class="mb-0"> 25000¥</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star icon-package"></small>
                                 <small class="fa fa-star icon-package"></small>
@@ -160,7 +160,7 @@ function Packages() {
                             <small class="flex-fill text-center py-2"><i class="fa fa-user icon-package me-2"></i>Sample</small>
                         </div>
                         <div class="text-center p-4">
-                            <h3 class="mb-0">$189.00</h3>
+                            <h3 class="mb-0">16000¥</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star icon-package"></small>
                                 <small class="fa fa-star icon-package"></small>
