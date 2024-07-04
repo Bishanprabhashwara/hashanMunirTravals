@@ -26,7 +26,7 @@ function Hero() {
           <img src={heroimg} className='introImg'/>
         </div>
         <div className='col-lg-6 col-md-12 col-sm-12'>
-          <h1 className='heroH1'>Kyoto Tour Itinerary</h1>
+          <h1 className='heroH1'>Japan Tour Itinerary</h1>
         </div>
         
       </div>

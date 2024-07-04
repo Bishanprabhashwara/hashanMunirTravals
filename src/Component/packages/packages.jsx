@@ -53,7 +53,7 @@ function Packages() {
       });
     
       const openModal3 = (plane) => {
-        setModalData2({
+        setModalData3({
           isVisible: true,
           plane
         });
@@ -168,7 +168,7 @@ function Packages() {
                                 <small class="fa fa-star icon-package"></small>
                                 <small class="fa fa-star icon-package"></small>
                             </div>
-                            <p>Design a custom travel plan based on your travel style preferences. Tailor your itinerary to match your interests and maximize your experience.</p>
+                            <p>Japan captivates with a harmonious blend of ancient traditions, cutting-edge technology, and breathtaking natural beauty.</p>
                             <div class="d-flex justify-content-center mb-2">
                                 <a  class="btn-sm px-3 border-end btn-packages" onClick={() => openModal4('Ordinary')}>Read More</a>
                                 <a className='btn-sm px-3 btn-packages' onClick={() => openModal('Ordinary')}>Book Now</a>

@@ -86,20 +86,15 @@ const Ordinary = ({ onClose }) => {
                 </div>
                 <div className='col-lg-6 col-md-12 col-sm-12'>
                     <br />
-                    <h1>Craft  Your Custom Tours with VIP Upgrade Options</h1>
+                    <h1>Japan Tours</h1>
                     <ul className='vipul'>
+               
+                        <li>Discover two iconic landmarks: Fushimi Inari Shrine and Kiyomizu Temple</li>
+                        <li>Start early at 6 AM for a serene experience and to avoid crowds</li>
+                        <li>Choose between a private tour or join a small group with up to eight participants</li>
+                        <li>Prices start from 16000¥ per person</li>
+                        <li>Inclusive of entrance fees and comfortable taxi transfers between sites</li>
 
-                        <li><strong>Personalized Itinerary:</strong> Tailored to your travel preferences and interests</li>
-                        <li><strong>Hotel Pickup:</strong> Convenient pickup directly from your accommodation</li>
-                        <li><strong>Transportation Options:</strong> Choose from a variety of transportation modes to suit your needs</li>
-                        <li><strong>Professional Photos:</strong> Get amazing photos taken by your knowledgeable guide</li>
-                        <li><strong>VIP Experience Upgrade:</strong>
-                            <ul>
-                                <li><strong>Chauffeured Vehicle:</strong> Enjoy the comfort of a private vehicle for the entire day</li>
-                                <li><strong>Exclusive Activities:</strong> Enhance your experience with unique options such as a traditional tea ceremony or a private audience with a geisha</li>
-                            </ul>
-                        </li>
-                        <li><strong>Pricing:</strong> Starts at &#165;25,000  per group</li>
                     </ul>
                     <p>Places to Visit</p>
                     <Link to="/hashanMunirTravals/gihon">
@@ -111,7 +106,13 @@ const Ordinary = ({ onClose }) => {
                     <Link to="/hashanMunirTravals/arashiyama">
                         <button className='btn btn-outline-danger'>Arashiyama</button><br />
                     </Link>
-                    <a className="btn-sm px-3 btn-packages" onClick={() => openModal('Early Bird Tour')}>Book Now</a>&nbsp;&nbsp;
+                    <Link to="/hashanMunirTravals/Osaka">
+                        <button className='btn btn-outline-danger'>Osaka</button>&nbsp;&nbsp;
+                    </Link>
+                    <Link to="/hashanMunirTravals/kobe">
+                        <button className='btn btn-outline-danger'>Kobe</button>&nbsp;&nbsp;
+                    </Link>
+                    <a className="btn-sm px-3 btn-packages" onClick={() => openModal('Ordinary')}>Book Now</a>&nbsp;&nbsp;
                     <button onClick={onClose} className='btn btn-outline-danger'>Close</button>
                 </div>
             </div>

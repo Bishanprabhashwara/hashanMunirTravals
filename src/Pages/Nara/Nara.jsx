@@ -91,7 +91,7 @@ function Nara() {
                 <img src={kyotoebird} className='kyotoEbirdimg' alt="Kyoto Early Bird Tour" />
                 <p className='ArashiyamaTourp'>
                     <Typewriter
-                        words={['Nara']}
+                        words={['Nara Tours']}
                         loop={Infinity}
                         typeSpeed={100}
                         deleteSpeed={50}

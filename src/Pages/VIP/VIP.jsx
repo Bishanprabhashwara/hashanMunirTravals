@@ -111,7 +111,13 @@ const Vip = ({ onClose }) => {
                     <Link to="/hashanMunirTravals/arashiyama">
                         <button className='btn btn-outline-danger'>Arashiyama</button><br />
                     </Link>
-                    <a className="btn-sm px-3 btn-packages" onClick={() => openModal('Early Bird Tour')}>Book Now</a>&nbsp;&nbsp;
+                    <Link to="/hashanMunirTravals/Osaka">
+                        <button className='btn btn-outline-danger'>Osaka</button>&nbsp;&nbsp;
+                    </Link>
+                    <Link to="/hashanMunirTravals/kobe">
+                        <button className='btn btn-outline-danger'>Kobe</button>&nbsp;&nbsp;
+                    </Link>
+                    <a className="btn-sm px-3 btn-packages" onClick={() => openModal('VIP')}>Book Now</a>&nbsp;&nbsp;
                     <button onClick={onClose} className='btn btn-outline-danger'>Close</button>
                 </div>
             </div>

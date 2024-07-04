@@ -74,7 +74,7 @@ function Gihon() {
                 <img src={kyotoebird} className='kyotoEbirdimg' alt="Kyoto Early Bird Tour" />
                 <p className='gihonTourp'>
                     <Typewriter
-                        words={[' Gion']}
+                        words={['Gion Tours']}
                         loop={Infinity}
                         typeSpeed={100}
                         deleteSpeed={50}

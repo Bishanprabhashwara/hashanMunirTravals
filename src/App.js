@@ -8,6 +8,9 @@ import BookNow from './Pages/BookNow/BookNow';
 import Gihon from './Pages/Gihon/Gihon';
 import Arashiyama from './Pages/Arashiyama/Arashiyama';
 import Nara from './Pages/Nara/Nara';
+import Kobe from './Pages/Kobe/Kobe';
+import Osaka from './Pages/Osaka/Osaka';
+
 
 function App() {
   return (
@@ -20,7 +23,10 @@ function App() {
             <Route path="/hashanMunirTravals/booknow" element={<BookNow/>} />  
             <Route path="/hashanMunirTravals/gihon" element={<Gihon/>} />    
             <Route path="/hashanMunirTravals/arashiyama" element={<Arashiyama/>} /> 
-            <Route path="/hashanMunirTravals/nara" element={<Nara/>} />      
+            <Route path="/hashanMunirTravals/nara" element={<Nara/>} />     
+            <Route path="/hashanMunirTravals/kobe" element={<Kobe/>} />
+            <Route path="/hashanMunirTravals/Osaka" element={<Osaka/>} />
+            
           </Routes>
         </Router>
     </div>

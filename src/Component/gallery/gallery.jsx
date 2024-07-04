@@ -20,7 +20,7 @@ function Gallery() {
                         <div className="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                             <div className="position-relative d-block overflow-hidden img-div img-1">
                                 <img className="img-fluid" src={ Kyoto } alt="" />
-                                <div className="bg-white fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2 txt-gallery text-title">Kyoto</div>
+                                <div className="bg-white fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2 txt-gallery text-title">kiyomizu-dera</div>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
@@ -32,7 +32,7 @@ function Gallery() {
                         <div className="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                             <div className="position-relative d-block overflow-hidden img-div img-3" href="">
                                 <img className="img-fluid" src={ Sorasak } alt="" />
-                                <div className="bg-white fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2 txt-gallery text-title">Sorasak</div>
+                                <div className="bg-white fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2 txt-gallery text-title">Yasaka Pagoda</div>
                             </div>
                         </div>
                     </div>
